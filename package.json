@@ -12,13 +12,17 @@
     "type": "git",
     "url": "https://github.com/a-ignatov-parc/playit.git"
   },
-  "dependencies": {
-    "underscore": "~1.6.0",
-    "commander": "~2.6.0",
-    "apple-tv": "a-ignatov-parc/apple-tv"
-  },
   "preferGlobal": "true",
   "bin": {
-    "playit" : "lib/playit.js"
+    "playit": "lib/playit.js"
+  },
+  "dependencies": {
+    "jsdom": "~3.1.0",
+    "jquery": "~2.1.0",
+    "xml2js": "~0.4.0",
+    "request": "~2.51.0",
+    "commander": "~2.6.0",
+    "underscore": "~1.6.0",
+    "apple-tv": "a-ignatov-parc/apple-tv"
   }
 }
